@@ -92,47 +92,63 @@ Integration: SteamDB API (planned)
 
 I have done the:
 Models (Game - Platform - Engine - Reaction - Review - SupportTicket - Wishlist)
+
 Repository (WishlistRepository - GameRepository- EngineRepository- PlatformRepository- ReactionRepository- SupportTicketRepository- ReviewRepository) 
+
 DTOs and CRUD for(Game - Review - SupportTicket )
 
 Endpoints i do :
+
 1-findGamesByBadge
+
 ("/api/v1/game/get-games-by-badge/{badgeId}")
 
 2-recommend-games
+
 ("/api/v1/game/recommend-games")
 
 3-filter-games-by-price-range
+
 ("/api/v1/game/filter-games-by-price-range/{minPrice}/{maxPrice}")
 
 4- find-game-by-developer 
+
 ("/api/v1/game/find-game-by-developer")
 
 5- getTopRatedGames
+
 ("/api/v1/game/get-top-games/{limit}")
 
 6- getGamesByReleaseDateRange
+
 ("/api/v1/game/released-in-range")
 
 7- findRecentlyReleasedGames 
+
 ("/api/v1/game/recent-release-games/{days}")
 
 8- likeReview 
+
 ("/api/v1/reaction/like/{reviewId}")
 
 9- dislikeReview
+
 ("/api/v1/reaction/dislike/{reviewId}")
 
 10- getReviewsByGame
+
 ("/api/v1/review/get-review-by-game/{gameId}")
 
 11- getReviewsForGameByReviewers 
+
 ("/api/v1/review/get-review-by-reviewers/{gameId}")
 
 12- getReviewsForGameByPlayers 
+
 ("/api/v1/review/get-review-by-players/{gameId}")
 
 13- getPlayerTransactionHistory
+
 ("/api/v1/transaction/get-player-history")
 
 
