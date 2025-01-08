@@ -91,7 +91,7 @@ Integration: SteamDB API (planned)
 ## __Endpoints Done By Me__
 
 I have done the:
-Models (Game - Platform - Engine - Reaction - Review - SupportTicket - Wishlist)
+Models (Game - Reaction - Review - SupportTicket - Wishlist)
 
 Repository (WishlistRepository - GameRepository- EngineRepository- PlatformRepository- ReactionRepository- SupportTicketRepository- ReviewRepository) 
 
