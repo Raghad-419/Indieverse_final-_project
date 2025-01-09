@@ -75,6 +75,8 @@ Integration: SteamDB API (planned)
 
 [Api Documentation](https://documenter.getpostman.com/view/39709985/2sAYJAcwS9)
 
+[Deployment URL](Indievers-env.eba-gikingcr.eu-central-1.elasticbeanstalk.com)
+
 
 ![Api_Documentation](https://github.com/user-attachments/assets/ef8ea83c-e84e-492c-ac94-0b40fa869569)
 
